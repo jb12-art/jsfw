@@ -14,7 +14,7 @@
 .oldPrice {
   text-decoration: line-through;
   margin-right: 6px;
-  color: gray;
+  color: #595959;
 }
 
 .discountedPrice {

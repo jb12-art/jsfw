@@ -25,12 +25,12 @@ export default function ProductCard({ product }: Props) {
       {/* image */}
       <img
         src={product.image?.url || '/placeholder.jpg'}
-        alt={product.image?.alt || product.title}
+        alt=""
         className={styles.img}
       />
 
       {/* title */}
-      <h3>{product.title}</h3>
+      <h2>{product.title}</h2>
 
       {/* price logic is in src/components/Price.tsx  */}
       <Price price={product.price} discountedPrice={product.discountedPrice} />

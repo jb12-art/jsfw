@@ -61,7 +61,7 @@ export default function ProductDetails() {
         {/* content */}
         <div className={styles.content}>
           {/* title */}
-          <h3 className={styles.title}>{product.title}</h3>
+          <h2 className={styles.title}>{product.title}</h2>
 
           {/* description */}
           <p className={styles.description}>{product.description}</p>

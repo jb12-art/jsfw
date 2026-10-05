@@ -112,19 +112,29 @@ https://v2.api.noroff.dev/online-shop
 ## Installation
 
 1. Clone the repository
-   git clone https://github.com/NoroffFEU/jsfw-2025-v1-jorgen-jsfw.git
+
+```
+git clone https://github.com/NoroffFEU/jsfw-2025-v1-jorgen-jsfw.git
+```
 
 2. Navigate into the project/ if needed.
 
-   cd jsfw-2025-v1-jorgen-jsfw
+```
+cd jsfw-2025-v1-jorgen-jsfw
+```
 
 3. Install dependencies
 
-   npm install
+```
+npm install`
+```
 
-4. Start development server
+## Start development server
 
-   npm run dev
+```
+cd jsfw-2025-v1-jorgen-jsfw
+npm run dev
+```
 
 ## Author
 

@@ -12,6 +12,7 @@ export default function Searchbar({ onSearch }: Props) {
       <span className={styles.icon}>{'\u2315'}</span>
       <input
         type="text"
+        aria-label="Search products"
         className={styles.searchbar}
         placeholder="Search for items"
         onChange={(e) => onSearch(e.target.value)}

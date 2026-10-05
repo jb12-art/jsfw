@@ -36,11 +36,12 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: red;
+  background: #c00000;
   color: white;
   padding: 5px;
   border-radius: 4px;
   font-size: 12px;
+  font-weight: 600;
 }
 
 .container {
